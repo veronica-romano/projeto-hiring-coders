@@ -53,13 +53,13 @@ a{
 
     header{
         display: flex;
-        align-items: center ;
         justify-content: space-between;
     }
 
     #logo{
-        max-width: 10vw;
-        max-height: 10vw;
+        display: flex;
+        align-items: flex-start;
+        flex-basis: 100%;
     }
 
     ul{
