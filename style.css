@@ -39,6 +39,15 @@ ul, ul li a{
     opacity: 1.0;
     color: rgb(28, 28, 29);
 }
+
+.fa-brands, .fa-solid{
+    transition: 400ms;
+}
+.fa-brands:hover, .fa-solid:hover{
+    color: rgb(31, 31, 37);
+    box-shadow: 3px 3px 3px 3px rgb(95, 95, 95);
+}
+
 a{
     text-decoration: none;
 }
@@ -56,6 +65,22 @@ a{
 
 .container .name h1{
     font-size: xx-large;
+}
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form input{
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.form button{
+    width: 25%;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 @media  only screen and (min-width: 768px) { 
@@ -80,6 +105,10 @@ a{
         margin-left: 2%;
     }
 
+    img{
+        width: 15vw;
+    }
+
     ul{
         width: 30vw;
         display: flex;
@@ -100,15 +129,24 @@ a{
     }
 
     .form{
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
     }
-
+    
     .form input{
         width: 50%;
+        padding: 5px 10px;
+        border-radius: 5px;
+        opacity: 0.6;
+        box-shadow: 2px 2px 2px 3px rgba(19, 19, 19, 0.61);
+    }
+    .form button{
+        width: 20%;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px 3px rgba(19, 19, 19, 0.61);
     }
 
-    .button input{
-        max-width: 50%;
-    }
+
 }
