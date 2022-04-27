@@ -21,6 +21,7 @@ label{
 header{
     box-shadow: 1px 1px 10px 1px rgb(95, 95, 95);
     width: 100vw;
+    margin-bottom: 15%;
 }
 
 img{
@@ -60,10 +61,16 @@ a{
     font-size: xx-large;
 }
 
+h5{
+    margin-bottom: 6%;
+}
+
 #arrow{
     font-size: xx-large;
     animation: blink 1s steps(5, start) infinite;
+    margin-bottom: 6%;
 }
+
 
 @keyframes blink {
     to {
