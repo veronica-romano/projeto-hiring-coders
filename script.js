@@ -3,5 +3,5 @@ function displayAbout(){
     arrow.classList.toggle('rotate')
 
     var display = document.getElementById('about');
-    arrow.classList.toggle('active')
+    display.classList.toggle('active')
 }
