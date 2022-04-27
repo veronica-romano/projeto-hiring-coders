@@ -115,6 +115,7 @@ h5{
     header{
         display: flex;
         justify-content: space-around;
+        margin-bottom: 6%;
     }
 
     .container .name h1{
@@ -144,6 +145,14 @@ h5{
         color: black;
         border: 4px rgba(48, 47, 47, 0.76);
         font-size: xxx-large;
+    }
+
+    h5{
+        margin-bottom: 3%;
+    }
+
+    #arrow{
+        margin-bottom: 3%;
     }
 
     #about p {
