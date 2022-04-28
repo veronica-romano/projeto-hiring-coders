@@ -158,6 +158,7 @@ h5{
     #about p {
         max-width: 70vw;
         margin: 0 auto;
+        margin-bottom: 3%;
     }
 
     .form{
