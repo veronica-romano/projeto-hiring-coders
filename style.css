@@ -25,6 +25,7 @@ header{
 }
 
 img{
+    padding-top: 0.2%;
     width: 30vw;
 }
 
@@ -91,7 +92,7 @@ h5{
 }
 
 .form{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -104,6 +105,26 @@ h5{
     width: 25%;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+.form button{
+    margin-left: -5px;
+    width: 20%;
+    padding: 5px 5px 5px 0px;
+    background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgb(46, 148, 55) 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    transition: all 300ms ease-out;
+}
+
+.form button:hover{
+    background-position: left bottom;
+    color: rgb(255, 255, 255);
 }
 
 @media  only screen and (min-width: 768px) { 
@@ -174,25 +195,7 @@ h5{
         margin-right: -5px;
         border: none;
     }
-    .form button{
-        margin-left: -5px;
-        width: 20%;
-        padding: 5px 5px 5px 0px;
-        background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgb(46, 148, 55) 50% );
-        background-size: 200% 100%;
-        background-position: right bottom;
-        color: rgb(255, 255, 255);
-        font-weight: bolder;
-        cursor: pointer;
-        border-radius: 0px 5px 5px 0px;
-        border: none;
-        transition: all 300ms ease-out;
-    }
 
-    .form button:hover{
-        background-position: left bottom;
-        color: rgb(255, 255, 255);
-    }
 
 
 }
