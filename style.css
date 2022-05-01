@@ -39,16 +39,12 @@ ul, ul li a{
 a{
     text-decoration: none;
 }
-
 #logo{
     text-align: center;
 }
-
 .container{
     text-align: center;
 }
-
-
 .container .name h1{
     font-size: xx-large;
 }
