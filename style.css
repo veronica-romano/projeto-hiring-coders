@@ -68,8 +68,12 @@ h5{
 
 #arrow{
     font-size: xx-large;
-    animation: blink 1s steps(5, start) infinite;
-    margin-bottom: 6%;
+    cursor: pointer;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: steps(5) ;
+    animation-delay: start;
+    animation-iteration-count: infinite ;
 }
 
 
@@ -79,16 +83,6 @@ h5{
     }
 
  
-}
-
-#arrow{
-    font-size: 40px;
-    cursor: pointer;
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-timing-function: steps(5) ;
-    animation-delay: start;
-    animation-iteration-count: infinite ;
 }
 
 #animation{
