@@ -51,22 +51,17 @@ a{
 h5{
     margin-bottom: 6%;
 }
-#arrow{
-    font-size: xx-large;
-    cursor: pointer;
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-timing-function: steps(5) ;
-    animation-delay: start;
-    animation-iteration-count: infinite ;
-}
+
 @keyframes blink{
-    to {
-        visibility: hidden;
-    }
+    0% {opacity: 0}
+    49%{opacity: 0}
+    50% {opacity: 1}    
+
 }
+
 #animation{
     transition: 300ms;
+    animation: blink 1s infinite;
 }
 .rotate{
     transform: rotate(180deg);
