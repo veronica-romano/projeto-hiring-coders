@@ -83,6 +83,16 @@ h5{
     transition: 300ms;
 }
 
+#arrow{
+    font-size: 40px;
+    cursor: pointer;
+    animation-name: piscar;
+    animation-duration: 1s;
+    animation-timing-function: steps(5) ;
+    animation-delay: start;
+    animation-iteration-count: infinite ;
+}
+
 .rotate{
     transform: rotate(180deg);
     transition: 300ms;
