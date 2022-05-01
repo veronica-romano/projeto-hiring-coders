@@ -48,11 +48,9 @@ a{
 .container .name h1{
     font-size: xx-large;
 }
-
 h5{
     margin-bottom: 6%;
 }
-
 #arrow{
     font-size: xx-large;
     cursor: pointer;
@@ -62,14 +60,11 @@ h5{
     animation-delay: start;
     animation-iteration-count: infinite ;
 }
-
-
 @keyframes blink{
     to {
         visibility: hidden;
     }
 }
-
 #animation{
     transition: 300ms;
 }
